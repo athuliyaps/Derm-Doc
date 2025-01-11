@@ -64,7 +64,7 @@ const Appointment = () => {
                   placeholder="Concern"
                 />
               </FloatingLabel>
-              <button onClick={handleConfirm} className="btn btn-success w-25 mt-3">
+              <button onClick={handleConfirm} className="btn btn-success w-100 mt-3">
                 Confirm
               </button>
             </div>
