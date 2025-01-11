@@ -11,7 +11,7 @@ const Header = () => {
         <Container>
             <Link to={'/'} style={{textDecoration:"none"}}></Link>
           <Navbar.Brand href="#home">
-          <Nav style={{color:'' }} className='fw-bolder fs-3 text-info' >  <i class="fa-solid fa-diamond me-2 "> </i>DermDoc</Nav>
+          <Link to={'/'}  style={{textDecoration:'none' }} className='fw-bolder fs-3 text-info' >  <i class="fa-solid fa-diamond me-2 "> </i>DermDoc</Link>
          </Navbar.Brand>
     {/* Toggle Button for Small Screens */} 
          <Navbar.Toggle aria-controls="basic-navbar-nav" />
